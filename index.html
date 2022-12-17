@@ -1,8 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  meta charset="utf-8"
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#summary" class="nav-link">summary</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">code</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">languages</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container main-container">
+      <section class="section-profile" id="profile">
+        <div>
+          <h1 class="section-title">Saikal Abytova</h1>
+          <span class="profile-section-description">Junior front-End developer</span>
+        </div>
+      <img src="./assets/img/avatar.png" alt="avatar" class="profile-img">
+      </section>
+      <section class="section section-summary">
+        <h2 class="summary-title">Summary</h2>
+        <p class="summary-about">I started learning programming about two months ago. My goal is to be skilled  front-end developer and have strong JS, Node.js, HTML, and CSS database. So, I have a great desire to learn and use my programming skills in developing both socially significant and tech projects.</p>
+      </section>
+      <section class="section section-contacts">
+        <h2 class="contacts-title">Contacts</h2>
+          <ul class="contact-list">
+            <li class="contacts-list">
+              <a href="#github" class="contacts-link">Github: sakutaku</a>
+            </li>
+            <li class="contacts-list">
+              <a href="#telegram" class="contacts-link">Telegram: @sakulyaa</a>
+            </li>
+            <li class="contacts-list">
+              <a href="#discord" class="contacts-link">Discord: Saikal#2642</a>
+            </li>
+          </ul>
+      </section>
+      <section class="section">
+        <div class="section-skills">
+          <div>
+        <h2 class="skill-title">Hard Skills</h2>
+        <ul class="skills-list">
+          <li class="skill-list">Figma/Photoshop</li>
+          <li class="skill-list">HTML,CSS</li>
+          <li class="skill-list">JS,Node.js</li>
+        </ul>
+        </div>
+        <div>
+        <h2 class="contacts-title">Soft Skills</h2>
+        <ul class="skills-list">
+          <li class="skill-list">Problem solving</li>
+          <li class="skill-list">Time management</li>
+          <li class="skill-list">Creativity</li>
+          <li class="skill-list">Leadership</li>
+          <li class="skill-list">Work ethic</li>
+        </div>
+        </ul>
+        </div>
+      </section>
+      <section>
+     <div class="code">
+      <h2 class="code-title">Code Example</h2>
+       const myCity={ <br>
+       city: 'Bishkek',<br>
+       info: {<br>
+       country: 'Kyrgyzstan',<br>
+       isPopular: true <br>
+         } <br>
+       } <br>
+       console.log(myCity.info.country) <br>
+       delete myCity.info['isPopular']
+     </div> 
+      </section>
+      <section class="section section-education" id="education">
+          <div>
+            <h2 class="language-title">Languages</h2>
+            <p class="language-level">English: C1</p>
+            <p class="language-level">Russian: C1</p>
+            <p class="language-level">Kyrgyz: C1</p>
+          </div>
+          <div class="education">
+            <h2 class="eduaction-title">Education</h2>
+            <p>American University Of Central Asia (2021)</p>
+          </div>
+      </section>
+  </main>
+  <footer class="footer">
+    <div class="container footerInner">
+    <div>2022</div>
+    <div>
+      <a href="https://github.com/sakutaku" target="_blank" class="github-link">Me on Github</a></div>
+    <div>
+      <a href="https://rs.school/js/" target="_blank">
+        <img src="./assets/img/rs_school_js.svg" alt="logoRS" class="footer-img"></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
